@@ -1,0 +1,5 @@
+forge "http://forge.puppetlabs.com"
+mod 'example42/puppi',
+  :git => 'https://github.com/example42/puppi.git'
+mod 'example42/yum',
+  :git => 'https://github.com/example42/puppet-yum.git'
