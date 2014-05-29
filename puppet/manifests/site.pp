@@ -14,4 +14,12 @@ service { 'docker':
 
 service { 'puppet':
         enable => true,
-        }
+}
+
+package { 'screen':
+        ensure => "installed",
+}
+
+package { 'vim':
+        ensure => "installed",
+}
